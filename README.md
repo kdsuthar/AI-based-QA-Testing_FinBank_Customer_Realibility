@@ -25,9 +25,9 @@ As a Data Analyst or QA Engineer, your mission is to:
 ## 📂 Dataset Structure
 The dataset consists of two CSV files:
 
-## File	Description
-train.csv	Contains features and target variable for training the model
-test.csv	Contains features only; target variable is not included (for final prediction)
+## File	Description: https://jupyter.org/try-jupyter/lab/ or https://jupyter.org/try-jupyter/notebooks/index.html?path=notebooks%2FLoan_Prediction_Analysis.ipynb 
+1. train.csv	Contains features and target variable for training the model.
+2. test.csv	Contains features only, target variable is not included (for final prediction)
 
 ## 📈 Features in train.csv
 ### Feature	Description
