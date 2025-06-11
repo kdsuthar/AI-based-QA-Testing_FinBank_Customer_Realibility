@@ -10,7 +10,7 @@ FinBank, a retail financial services provider, is striving to better identify fi
 
 4. To achieve this, FinBank has collected a wide range of behavioral, transactional, and demographic data from its customer base.
 
-As a data scientist, your mission is to:
+As a Data Analyst or QA Engineer, your mission is to:
 
 1. Clean and preprocess the dataset.
 
