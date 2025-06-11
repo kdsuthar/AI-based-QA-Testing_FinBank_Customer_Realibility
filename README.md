@@ -31,56 +31,54 @@ test.csv	Contains features only; target variable is not included (for final pred
 
 ## 📈 Features in train.csv
 ### Feature	Description
-ID	Unique identifier for each customer
-Age	Age of the customer
-Customer_Segment	Customer tier (e.g., Bronze, Gold, Platinum)
-Region	Geographical region
-Preferred_Channel	Interaction preference (Online, Branch, Phone)
-Employment_Status	Employment category (e.g., Employed, Self-Employed, Unemployed)
-Annual_Income	Yearly income in USD
-Spending_Score	Internal metric indicating spending behavior
-Savings_Amount	Amount saved by the customer
-Loan_Amount	Outstanding loan amount
-Customer_Tenure	Years since becoming a customer
-Credit_Score	Financial credit score
-Avg_Transaction_Value	Average transaction size
-Num_Bounced_Checks	Number of checks that bounced
-Account_Balance	Current balance in the account
-Referral_Count	Number of customers referred
-Loyalty_Score	Internal loyalty score
-Has_Credit_Card	Whether the customer has a credit card (1 = Yes, 0 = No)
-Has_Loan	Whether the customer has a loan (1 = Yes, 0 = No)
-target	Label: 1 = Reliable, 0 = Unreliable
+1. ID: Unique identifier for each customer
+2. Age: Age of the customer
+3. Customer_Segment	Customer tier (e.g., Bronze, Gold, Platinum)
+4. Region	Geographical region
+5. Preferred_Channel	Interaction preference (Online, Branch, Phone)
+6. Employment_Status	Employment category (e.g., Employed, Self-Employed, Unemployed)
+7. Annual_Income	Yearly income in USD
+8. Spending_Score	Internal metric indicating spending behavior
+9. Savings_Amount	Amount saved by the customer
+10. Loan_Amount	Outstanding loan amount
+11. Customer_Tenure	Years since becoming a customer
+12. Credit_Score	Financial credit score
+13. Avg_Transaction_Value	Average transaction size
+14. Num_Bounced_Checks	Number of checks that bounced
+15. Account_Balance	Current balance in the account
+16. Referral_Count	Number of customers referred
+17. Loyalty_Score	Internal loyalty score
+18. Has_Credit_Card	Whether the customer has a credit card (1 = Yes, 0 = No)
+19. Has_Loan	Whether the customer has a loan (1 = Yes, 0 = No)
+20. target	Label: 1 = Reliable, 0 = Unreliable
 
 ## 🧪 Tasks
 ### ✅ 1. Data Cleaning
-1. Identify and handle missing values
+1. Identify and handle missing values.
 
-2.  Remove or treat outliers
+2. Check for and remove duplicate records.
 
-3. Check for and remove duplicate records
-
-4. Convert categorical variables into numeric (encoding)
+3. Convert categorical variables into numeric (encoding).
 
 ### ⚙️ 2. Feature Engineering
-1. Create or transform features that may boost predictive power
+1. Create or transform features that may boost predictive power.
 
-2. Normalize or scale numeric features if required
+2. Normalize or scale numeric features if required.
 
 ### 🤖 3. Model Building
 1. Train multiple ML algorithms (e.g., Logistic Regression, Random Forest, XGBoost)
 
-2. Use cross-validation for performance evaluation
+2. Use cross-validation for performance evaluation.
 
-3. Optimize hyperparameters for best results
+3. Optimize hyperparameters for best results.
 
 ### 📊 4. Evaluation
-1. Evaluate models using metrics like accuracy, precision, recall, and F1 score
+1. Evaluate models using metrics like accuracy, precision, recall, and F1 score.
 
-2. Use confusion matrix or ROC-AUC for performance insights
+2. Use confusion matrix or ROC-AUC for performance insights.
 
 ### 📤 5. Prediction on Test Data
-Apply final model to test.csv and output predicted reliability
+Apply final model to test.csv and output predicted reliability.
 
 ### 🛠️ Tech Stack
 - Python (Jupyter Notebook)
