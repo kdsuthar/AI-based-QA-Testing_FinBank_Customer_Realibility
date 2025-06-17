@@ -83,4 +83,4 @@ Apply final model to test.csv and output predicted reliability.
 ### 🛠️ Tech Stack
 - Python (Jupyter Notebook)
 
-- Pandas, NumPy
+- Pandas, NumPy, Matplotlib, Scikit Learn
